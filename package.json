@@ -12,6 +12,7 @@
   "author": "Zeggy",
   "license": "ISC",
   "dependencies": {
+    "discord-player": "^3.0.3",
     "discord.js": "^12.5.1"
   }
 }

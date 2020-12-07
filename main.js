@@ -26,23 +26,6 @@ client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
 });
 
-client.on("message", async (message) => {
-  const args = message.content.slice(settings.prefix.length).trim().split(/ +/g);
-  const command = args.shift().toLowerCase();
-
-  if(command === 'play'){
-    let track = await bot.player.play(message.member.voice.channel, args [0], message.member.user.tag);
-    message.channel.send(`Currently playing ${track.name}! - Requested by ${track.requestedBy}`);
-  }
-
-  if (command === 'stop'){
-    let track = await bot.player.stop(message.guild.id);
-    message.channel.send(`STOPPED`);
-  }
-
-
-});
-
 client.on('message', message => {
   if(!message.content.startsWith(prefix) || message.author.bot) return;
 
