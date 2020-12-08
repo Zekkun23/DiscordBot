@@ -21,10 +21,10 @@ for(const file of commandFiles){
 client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
 client.user.setPresence({
-  status: "Online",
+  status: "DND",
   game: {
     name: "studetnts Suffer",
-    type: "WATCHING"
+    type: "Playing"
   }
 });
 });
