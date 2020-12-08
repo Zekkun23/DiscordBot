@@ -41,6 +41,5 @@ client.on('message', message => {
     client.commands.get('help').execute(message, args);
   }
 });
-
-
-client.login(process.env.TOKEN);
+ 
+client.login('process.env.KEY')
