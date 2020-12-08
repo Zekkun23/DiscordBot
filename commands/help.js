@@ -29,9 +29,16 @@ module.exports = {
                 "value": "Provides all of the teachers contacts and emails."
               },
               {
+                "name": "Assessments",
+                "value": "Provides Upcoming Assessment Details"
+              },
+              {
+                "name": "Assessment-ping",
+                "value": "Don't use this command if ur not an admin/class rep. Im gonna kill you if you do."
+              },
+              {
                 "name": "Help",
-                "value": "Shows what all the commands do.",
-                "inline": true
+                "value": "Shows what all the commands do."
               }
             ]
           };
