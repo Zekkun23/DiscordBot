@@ -22,7 +22,6 @@ client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
 client.user.setGame(';help'); 
 });
-});
 
 client.on('message', message => { 
   if(!message.content.startsWith(prefix) || message.author.bot) return;
