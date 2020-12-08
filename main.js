@@ -4,10 +4,6 @@ const client = new Discord.Client();
 
 const exampleEmbed = new Discord.MessageEmbed() 
 
-const { Player } = require("discord-player");
-const player = new Player(client);
-client.player = player;
-
 const prefix = ';';
 
 const fs = require('fs');
@@ -24,21 +20,6 @@ for(const file of commandFiles){
 
 client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
-});
-
-client.on("message", async message => {
-  const args = message.content.slice(prefix.length).trim().split(/ +/g);
-  const command = args.shift().toLowerCase();
-
-  if(command === 'play') {
-    let track = await bot.player.play(message.member.voice.channel, args[0], message.member.user.tag);
-    message.channel.send(`Currently playing ${track.name}! - Requested by ${track.requestedBy}`);
-  }
-
-  if (command === 'stop') {
-    let track = await bot.player.stop(message.guild.id);
-    message.channel.send(`STOPPED`);
-  }
 });
 
 client.on('message', message => {
@@ -58,6 +39,12 @@ client.on('message', message => {
   }
   else if (command == 'help'){
     client.commands.get('help').execute(message, args);
+  }
+  else if (command == 'assessment-ping'){
+    message.channel.send("<@&754608365283442738> Just a reminder to do your assessments! ");
+  }
+  else if (command == 'assessments'){
+   client.commands.get('assessments').execute(message, args);
   }
 });
 
