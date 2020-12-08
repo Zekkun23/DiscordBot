@@ -21,10 +21,9 @@ for(const file of commandFiles){
 client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
 
-  client.user.setPresence({ activity: { name: 'with discord.js' }, status: 'idle' })
-  .then(console.log)
+client.user.setActivity('students suffer', { type: 'WATCHING' })
+  .then(presence => console.log(`Activity set to ${presence.activities[0].name}`))
   .catch(console.error);
-  
   
 });
 
