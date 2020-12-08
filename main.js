@@ -49,4 +49,4 @@ client.on('message', message => {
 });
 
 
-client.login('process.env.KEY')
+client.login('process.env.TOKEN')
