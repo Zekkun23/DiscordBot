@@ -40,6 +40,13 @@ client.on('message', message => {
   else if (command == 'help'){
     client.commands.get('help').execute(message, args);
   }
+  else if (command == 'assessment-ping'){
+    message.channel.send("<@&754608365283442738> Just a reminder to do your assessments! ");
+  }
+  else if (command == 'assessments'){
+    client.commands.get('assessments').execute(message, args);
+  }
 });
- 
+
+
 client.login('process.env.KEY')
