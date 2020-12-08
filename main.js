@@ -22,11 +22,12 @@ client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
 });
 
-client.on('message', message => {
+client.on('message', message => { 
   if(!message.content.startsWith(prefix) || message.author.bot) return;
 
   const args = message.content.slice(prefix.length).split(/ +/);
   const command = args.shift().toLowerCase();
+
 
   if (command === 'links'){
     client.commands.get('links').execute(message, args);
@@ -40,13 +41,13 @@ client.on('message', message => {
   else if (command == 'help'){
     client.commands.get('help').execute(message, args);
   }
-  else if (command == 'assessment-ping'){
-    message.channel.send("<@&754608365283442738> Just a reminder to do your assessments! ");
-  }
   else if (command == 'assessments'){
-   client.commands.get('assessments').execute(message, args);
-  }
-});
+    client.commands.get('assessments').execute(message, args);
+   }
+  if (command == 'assessment-ping'){
+    message.channel.send('<@&754608365283442738> Just a reminder to do your assessments! Details are above this message. See <#758394341030101042> for the full list.');
+  } 
 
+});
 
 client.login(process.env.TOKEN);
