@@ -20,7 +20,12 @@ for(const file of commandFiles){
 
 client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(';help'); 
+
+  client.user.setPresence({ activity: { name: 'with discord.js' }, status: 'idle' })
+  .then(console.log)
+  .catch(console.error);
+  
+  
 });
 
 client.on('message', message => { 
