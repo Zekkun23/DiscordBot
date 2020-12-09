@@ -58,7 +58,7 @@ client.on('message', message => {
     const user = message.author;
     
     let msg;
-    let textChannel = message.mentions.channel.first()
+    let textChannel = message.mentions.channel()
     if (!args[0]) {
       message.channel.send("Please Provide the Password.")
       }
