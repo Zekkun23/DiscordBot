@@ -51,7 +51,7 @@ client.on('message', message => {
   } 
     message.channel.send('<@&754608365283442738> Just a reminder to do your assessments! Details are above this message. See <#758394341030101042> for the full list.');
   }
-  if (command == 'pw'){
+  if (command == 'pass'){
     if (!message.content.startsWith(prefix) || message.author.bot) return;
 
    const user = message.author;
