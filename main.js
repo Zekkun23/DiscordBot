@@ -75,6 +75,7 @@ client.on('message', message => {
       }}
     else{
       message.channel.send("You can't use this command")
+    }
 }});
 
 client.login(process.env.TOKEN);
