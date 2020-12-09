@@ -53,7 +53,7 @@ client.on('message', message => {
     message.channel.send('<@&754608365283442738> Just a reminder to do your assessments! Details are above this message. See <#758394341030101042> for the full list, or use the assessment command.');
   } 
   if (command == 'pw'){
-    if (!message.content.startsWith(prefix) || message.author.bot) return;
+     if (!message.content.startsWith(prefix) || message.author.bot) return;
 
     const user = message.author;
     
@@ -63,10 +63,16 @@ client.on('message', message => {
       message.channel.send("Please Provide the Password.")
       }
 
-      const say = args.join(" ");
-textChannel.send(say)
-message.delete()
+      message.delete()
 
+      if(textChannel){
+        msg = args.slice(1).join(" ");
+        textChannel.send(msg)
+        textChannel.send('<@&754608365283442738> Passwords has been given!')
+      } else{
+        msg = args.join(" ");
+        message.channel.send(msg)
+      }
 }});
 
 client.login(process.env.TOKEN);
