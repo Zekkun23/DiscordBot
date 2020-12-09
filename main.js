@@ -44,7 +44,7 @@ client.on('message', message => {
   else if (command == 'assessments'){
     client.commands.get('assessments').execute(message, args);
    }
-  if (command == 'assessment-ping'){
+  if (command == 'ap'){
     if(!message.member.roles.cache.some(r => r.name === "Admin")){
       return message.channel.send('You do not have permission to use this command.')}
   } 
