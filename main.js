@@ -56,13 +56,15 @@ client.on('message', message => {
     if (!message.content.startsWith(prefix) || message.author.bot) return;
 
     const user = message.author;
-
+    
+    let msg;
+    let textChannel = message.mentions.channel.first()
     if (!args[0]) {
       message.channel.send("Please Provide the Password.")
       }
 
       const say = args.join(" ");
-message.channel.send(say)
+textChannel.send(say)
 message.delete()
 
 }});
