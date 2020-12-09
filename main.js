@@ -62,8 +62,7 @@ client.on('message', message => {
       }
 
       const say = args.join(" ");
-message.channel.send(say)
-message.channel.send('<@&754608365283442738> Passwords has been given!');
+message.channel.send(say \n '<@&754608365283442738> Passwords has been given!')
 message.delete()
 
 }});
