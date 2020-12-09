@@ -34,7 +34,11 @@ module.exports = {
               },
               {
                 "name": "Assessment-ping",
-                "value": "Don't use this command if ur not an admin/class rep. Im gonna kill you if you do."
+                "value": "This is an admin only command that is used to remind students about upcoming assessments."
+              },
+              {
+                "name": "Pw",
+                "value": "This is an admin only command that is used to announce attendance passwords."
               },
               {
                 "name": "Help",

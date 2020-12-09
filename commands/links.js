@@ -30,7 +30,7 @@ module.exports = {
               },
               {
                 "name": "Fundamentals Of Computing (BSC)",
-                "value": "https://spaces.zang.io/spaces/5fd0627a67ad5052464024d3"
+                "value": "Unknown"
               }
             ]
           };

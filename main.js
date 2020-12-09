@@ -20,11 +20,6 @@ for(const file of commandFiles){
 
 client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
-
-client.user.setActivity('students suffer', { type: 'WATCHING' })
-  .then(presence => console.log(`Activity set to ${presence.activities[0].name}`))
-  .catch(console.error);
-  
 });
 
 client.on('message', message => { 
@@ -50,32 +45,36 @@ client.on('message', message => {
     client.commands.get('assessments').execute(message, args);
    }
   if (command == 'assessment-ping'){
-    message.channel.send('<@&754608365283442738> Just a reminder to do your assessments! Details are above this message. See <#758394341030101042> for the full list, or use the assessment command.');
+    if(!message.member.roles.cache.some(r => r.name === "Admin")){
+      return message.channel.send('You do not have permission to use this command.')}
   } 
+    message.channel.send('<@&754608365283442738> Just a reminder to do your assessments! Details are above this message. See <#758394341030101042> for the full list.');
+
   if (command == 'pw'){
-     if (!message.content.startsWith(prefix) || message.author.bot) return;
-     if(message.member.roles.find("name", "VIP")){
-    const user = message.author;
-    
-    let msg;
-    let textChannel = message.mentions.channels.first()
-    if (!args[0]) {
-      message.channel.send("Please Provide the Password.")
-      }
+    if (!message.content.startsWith(prefix) || message.author.bot) return;
 
-      message.delete()
+   const user = message.author;
+   
+   let msg;
+   let textChannel = message.mentions.channels.first()
 
-      if(textChannel){
-        msg = args.slice(1).join(" ");
-        textChannel.send(msg)
-        textChannel.send('<@&754608365283442738> Passwords has been given!')
-      } else{
-        msg = args.join(" ");
-        message.channel.send(msg)
-      }}
-    else{
-      message.channel.send("You can't use this command")
-    }
+   if(!message.member.roles.cache.some(r => r.name === "Admin")){
+    return message.channel.send('You do not have permission to use this command.')
+    return;
+  }
+
+   if (!args[0]) {
+     message.channel.send("Please Provide the Password.")
+     }
+
+     message.delete()
+
+     if(textChannel){
+       msg = args.slice(1).join(" ");
+       textChannel.send(msg)
+       textChannel.send('<@&754608365283442738> Passwords has been given!')
+     } 
 }});
 
-client.login(process.env.TOKEN);
+
+client.login('NzcxNzIyMjYyNzQ2NzU5MTc4.X5wQXQ.QoeC658L6SoNRh76bXVEWgxo644');
