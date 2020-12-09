@@ -33,7 +33,7 @@ module.exports = {
                 "value": "Provides Upcoming Assessment Details"
               },
               {
-                "name": "Assessment-ping",
+                "name": "Ap",
                 "value": "This is an admin only command that is used to remind students about upcoming assessments."
               },
               {
