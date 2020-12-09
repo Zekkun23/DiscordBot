@@ -56,7 +56,7 @@ client.on('message', message => {
     var announcement = "";
     for (const word in args) {
       announcement = announcement + args[word] + " ";
-    }
+    }}
 
 });
 
