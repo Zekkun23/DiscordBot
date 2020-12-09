@@ -47,6 +47,7 @@ client.on('message', message => {
   if (command == 'ap'){
     if(!message.member.roles.cache.some(r => r.name === "Admin")){
       return message.channel.send('You do not have permission to use this command.')}
+    return;
   } 
     message.channel.send('<@&754608365283442738> Just a reminder to do your assessments! Details are above this message. See <#758394341030101042> for the full list.');
 
@@ -60,7 +61,7 @@ client.on('message', message => {
 
    if(!message.member.roles.cache.some(r => r.name === "Admin")){
     return message.channel.send('You do not have permission to use this command.')
-    return;
+     return;
   }
 
    if (!args[0]) {
