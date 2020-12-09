@@ -52,7 +52,21 @@ client.on('message', message => {
   if (command == 'assessment-ping'){
     message.channel.send('<@&754608365283442738> Just a reminder to do your assessments! Details are above this message. See <#758394341030101042> for the full list, or use the assessment command.');
   } 
+  if (command == 'pw'){
+    if (!message.content.startsWith(prefix) || message.author.bot) return;
 
-});
+    const user = message.author;
+
+    if (!args[0]) {
+      message.channel.send("Please Provide the Password.")
+      }
+
+      const say = args.join(" ");
+message.channel.send(say)
+message.delete()
+
+message.channel.send('<@&754608365283442738> Passwords has been given!');
+
+}});
 
 client.login(process.env.TOKEN);
