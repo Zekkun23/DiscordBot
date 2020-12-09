@@ -54,7 +54,7 @@ client.on('message', message => {
   } 
   if (command == 'pw'){
      if (!message.content.startsWith(prefix) || message.author.bot) return;
-
+     if(message.member.roles.find("name", "VIP")){
     const user = message.author;
     
     let msg;
@@ -72,7 +72,9 @@ client.on('message', message => {
       } else{
         msg = args.join(" ");
         message.channel.send(msg)
-      }
+      }}
+    else{
+      message.channel.send("You can't use this command")
 }});
 
 client.login(process.env.TOKEN);
