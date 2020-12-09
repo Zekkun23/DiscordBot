@@ -52,11 +52,6 @@ client.on('message', message => {
   if (command == 'assessment-ping'){
     message.channel.send('<@&754608365283442738> Just a reminder to do your assessments! Details are above this message. See <#758394341030101042> for the full list, or use the assessment command.');
   } 
-  if (command == "announce") {
-    var announcement = "";
-    for (const word in args) {
-      announcement = announcement + args[word] + " ";
-    }}
 
 });
 
