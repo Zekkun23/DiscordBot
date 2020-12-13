@@ -48,7 +48,4 @@ Feel free to message me on one of my contacts.
 <a href="https://twitter.com/FuentesZeggy">
   <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/png/social/twitter.png" alt="Twitter" style="vertical-align:top margin:6px 4px">
   </a>
-<a href="https://www.youtube.com/channel/UC8_a-UZwaJQgc4JEXs49Q7g">
-  <img src="https://github.com/MikeCodesDotNET/ColoredBadges/blob/master/png/streaming/youtube.png" alt="Youtube" style="vertical-align:top margin:6px 4px">
-  </a>
 </p>
