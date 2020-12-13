@@ -10,3 +10,15 @@ The Bots prefix is ";"
 - Contacts
 - Ap
 - Pw
+
+# Future Commands/Features?
+- Music
+- Ban/Kick
+- Mute
+- Roles
+
+# Bot Icon
+Huge thank you to my friend Icen for making the icon :D
+<p align="center">
+  <img src="https://github.com/Zekkun23/DiscordBot/blob/main/BSUChan.png" alt="bsuchanicon"/>
+  </p>
