@@ -11,11 +11,11 @@ The Bots prefix is ";"
 - Ap
 - Pw
 
-# Future Commands/Features?
+# Future Commands/Features(?)
 - Music
 - Ban/Kick
 - Mute
-- Roles
+- Role commands
 
 # Bot Icon
 Huge thank you to my friend Icen for making the icon :D
