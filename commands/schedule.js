@@ -25,7 +25,7 @@ module.exports = {
               },
               {
                 "name": "__**Wednesday:**__",
-                "value": "Intro To Computing/Com Fun [12:00 - 1:30]\n\nDigital Storytelling [12:00 - 1:30]"
+                "value": "Fundamentals Of Computing/Com Fun [12:00 - 1:30]\n\nDigital Storytelling [12:00 - 1:30]"
               }
             ]
           };
