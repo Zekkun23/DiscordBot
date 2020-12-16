@@ -25,7 +25,7 @@ const embed = {
     },
        {
       "name": ":desktop: (DCC) Fundamentals of Computing",
-       "value": "**[JAN 24] - Research Project: Word Document**\n2,000 words min.\n\n:paperclip:  Details: https://portal.ftcglobal.ae/pluginfile.php/14532/mod_resource/content/0/SA%204%20brief%20Research%20Project.pdf
+       "value": "**[JAN 24] - Research Project: Word Document**\n2,000 words min.\n\n:paperclip:  Details: https://portal.ftcglobal.ae/pluginfile.php/14532/mod_resource/content/0/SA%204%20brief%20Research%20Project.pdf"
        },
       "name": ":book: Digital Storytelling",
       "value": "**[JAN 30] - Sway Portfolio: Finished Sway Link **\n+ Word Document with essay that must include:\n• Digistory Experience (Video)\n• Twine story\n• 30-sec timelapse\n• Photoshop - selective coloration/decoloration, image blend and coloration\n• Advertisement storyboard\n• Photography works\n• Stop Motion\n\n:paperclip:  Details: https://docs.google.com/document/d/1ph0hcKs3oEWy9k13C3tcXtspLJMqs2UXF_AUd4codsg/edit\n:paperclip:  Sample: https://sway.office.com/DGdGGsAvgZY5uJwa?ref=Link\n"
