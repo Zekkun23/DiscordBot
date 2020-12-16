@@ -23,13 +23,14 @@ const embed = {
       "name": ":desktop: (BSc) Intro to Computing",
       "value": "**[JAN 17] - Research Project: Word Document**\n2,000 words min.\n• Technology Convergence\n\n:paperclip:  Details: https://drive.google.com/file/d/1onbu5fjk6_dcYsOe3sOstcJri7NfYtGZ/view?usp=sharing\n:paperclip:  Sample: https://drive.google.com/file/d/1GpJtPqiP_daEqok4dBGrG6kacFVJEVRp/view?usp=sharing\n\n"
     },
-       {
+    {
       "name": ":desktop: (DCC) Fundamentals of Computing",
-       "value": "**[JAN 24] - Research Project: Word Document**\n2,000 words min.\n\n:paperclip:  Details: https://portal.ftcglobal.ae/pluginfile.php/14532/mod_resource/content/0/SA%204%20brief%20Research%20Project.pdf"
-       },
+      "value": "**[JAN 24] - Research Project: Word Document**\n2,000 words min.\n\n:paperclip:  Details: https://portal.ftcglobal.ae/pluginfile.php/14532/mod_resource/content/0/SA%204%20brief%20Research%20Project.pdf"
+    },
+    {
       "name": ":book: Digital Storytelling",
-      "value": "**[JAN 30] - Sway Portfolio: Finished Sway Link **\n+ Word Document with essay that must include:\n• Digistory Experience (Video)\n• Twine story\n• 30-sec timelapse\n• Photoshop - selective coloration/decoloration, image blend and coloration\n• Advertisement storyboard\n• Photography works\n• Stop Motion\n\n:paperclip:  Details: https://docs.google.com/document/d/1ph0hcKs3oEWy9k13C3tcXtspLJMqs2UXF_AUd4codsg/edit\n:paperclip:  Sample: https://sway.office.com/DGdGGsAvgZY5uJwa?ref=Link\n"
-      }
+      "value": "**[DEC 12] - Portfolio Submissions: Google Drive Link**\n• Photoshop - selective coloration/decoloration, image blend and coloration\n• 30-sec timelapse\n• Advertisement storyboard\n\n**[JAN 30] - Sway Portfolio: Finished Sway Link **\n+ Word Document with essay that must include:\n• Digistory Experience (Video)\n• Twine story\n• 30-sec timelapse\n• Photoshop - selective coloration/decoloration, image blend and coloration\n• Advertisement storyboard\n• Photography works\n• Stop Motion\n\n:paperclip:  Details: https://docs.google.com/document/d/1ph0hcKs3oEWy9k13C3tcXtspLJMqs2UXF_AUd4codsg/edit\n:paperclip:  Sample: https://sway.office.com/DGdGGsAvgZY5uJwa?ref=Link\n"
+    }
   ]
 };
 message.channel.send({ embed });
