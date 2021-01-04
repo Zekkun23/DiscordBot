@@ -93,7 +93,7 @@ client.on('message', message => {
        msg = args.slice(1).join(" ");
        textChannel.send(msg)
     }
-}});
+}};
 
 
 client.login(process.env.TOKEN);
