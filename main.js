@@ -92,8 +92,9 @@ client.on('message', message => {
    if(textChannel){
        msg = args.slice(1).join(" ");
        textChannel.send(msg)
+     }
     }
-}};
+}});
 
 
 client.login(process.env.TOKEN);
