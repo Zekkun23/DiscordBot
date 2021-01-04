@@ -80,20 +80,6 @@ client.on('message', message => {
        textChannel.send(msg)
        textChannel.send('<@&754608365283442738> Passwords has been given!')
      } 
-    if (command == 'say'){
-    
-      if (!message.content.startsWith(prefix) || message.author.bot) return;
-
-   const user = message.author;
-   
-   let msg;
-   let textChannel = message.mentions.channels.first()
-   
-   if(textChannel){
-       msg = args.slice(1).join(" ");
-       textChannel.send(msg)
-     }
-    }
 }});
 
 
