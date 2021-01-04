@@ -49,16 +49,6 @@ client.on('message', message => {
   else if (command == 'assessments'){
     client.commands.get('assessments').execute(message, args);
    }
-    module.exports.run = async (bot, message, args) =>{
-     if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply("No");
-     let botmessage = args.join(" ");
-     message.delete().catch();
-     message.channel.send(botmessage);
-   }
-
-   module.exports.help = {
-     name: "say"
-   }
   if (command == 'ap'){
     if(!message.member.roles.cache.some(r => r.name === "Admin")){
       return message.channel.send('You do not have permission to use this command.')
@@ -90,6 +80,19 @@ client.on('message', message => {
        textChannel.send(msg)
        textChannel.send('<@&754608365283442738> Passwords has been given!')
      } 
+    if (command == 'say'){
+    
+      if (!message.content.startsWith(prefix) || message.author.bot) return;
+
+   const user = message.author;
+   
+   let msg;
+   let textChannel = message.mentions.channels.first()
+   
+   if(textChannel){
+       msg = args.slice(1).join(" ");
+       textChannel.send(msg)
+    }
 }});
 
 
