@@ -26,7 +26,7 @@ module.exports = {
               },
               {
                 "name": "Computing Fundamentals (DCC)",
-                "value": "https://spaces.zang.io/spaces/5fcc8b5f37c084c8514dbc4d"
+                "value": "https://spaces.zang.io/spaces/5fcc8b5f37c084c8514dbc4d\nhttps://meet.google.com/riz-sarp-hwy"
               },
               {
                 "name": "Fundamentals Of Computing (BSC)",
