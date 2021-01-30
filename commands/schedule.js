@@ -17,15 +17,15 @@ module.exports = {
             "fields": [
               {
                 "name": "__**Sunday**__",
-                "value": "Code Labs [10:00 - 11:30]\n\nIntro To Computing/Com Fun [12:00 - 1:30]"
+                "value": "Web Development [9:30 - 11:00]\n\nExperience Design/UX Design [11:30 - 1:00]"
               },
               {
                 "name": "__**Monday**__",
-                "value": "Code Labs [10:00 - 11:30]\n\nDigital Storytelling [12:00 - 1:30]"
+                "value": "Ideation & CBS/Creative Strategies [9:30 - 11:00]\n\nExperience Design/UX Design [11:30 - 1:00]"
               },
               {
                 "name": "__**Wednesday:**__",
-                "value": "Fundamentals Of Computing/Com Fun [12:00 - 1:30]\n\nDigital Storytelling [12:00 - 1:30]"
+                "value": "Web Development [9:30 - 11:00]\n\nIdeation & CBS/Creative Strategies [11:30 - 1:00]"
               }
             ]
           };
