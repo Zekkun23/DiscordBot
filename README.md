@@ -27,7 +27,7 @@ The Bots prefix is ";"
 # Bot Icon
 Huge thank you to my friend Icen for making the icon :D
 <p align="center">
-  <img src="https://github.com/Zekkun23/DiscordBot/blob/main/BSUChan.png" alt="bsuchanicon"/>
+  <img src="https://github.com/Zekkun23/DiscordBot/blob/main/BSUChanSmaller.png" alt="bsuchanicon"/>
   </p>
   
 # Got any Questions or suggestions?
