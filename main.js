@@ -21,7 +21,7 @@ for(const file of commandFiles){
 client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
   
-  client.user.setActivity('thanks for the new icon icen', { type: 'WATCHING' })
+  client.user.setActivity('thanks for the new icon icen!!', { type: 'PLAYING' })
   .then(presence => console.log(`Activity set to ${presence.activities[0].name}`))
   .catch(console.error);
   
