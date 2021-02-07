@@ -17,15 +17,15 @@ module.exports = {
             "fields": [
               {
                 "name": "__**Sunday**__",
-                "value": "Web Development [9:30 - 11:00]\n\nExperience Design/UX Design [11:30 - 1:00]"
+                "value": "[Web Development](https://meet.google.com/hoz-wsae-xwn) [9:30 - 11:00]\n\n[Experience Design/UX Design](https://meet.google.com/rrd-dmcf-xxu) [11:30 - 1:00]"
               },
               {
                 "name": "__**Monday**__",
-                "value": "Ideation & CBS/Creative Strategies [9:30 - 11:00]\n\nExperience Design/UX Design [11:30 - 1:00]"
+                "value": "Ideation & CBS/Creative Strategies [9:30 - 11:00]\n\n[Experience Design/UX Design](https://meet.google.com/rrd-dmcf-xxu) [11:30 - 1:00]"
               },
               {
                 "name": "__**Wednesday:**__",
-                "value": "Web Development [9:30 - 11:00]\n\nIdeation & CBS/Creative Strategies [11:30 - 1:00]"
+                "value": "[Web Development](https://meet.google.com/hoz-wsae-xwn) [9:30 - 11:00]\n\nIdeation & CBS/Creative Strategies [11:30 - 1:00]"
               }
             ]
           };
