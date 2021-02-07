@@ -17,8 +17,8 @@ module.exports = {
             },
             "fields": [
               {
-                "name": "__**Dr. Brohi - Intro To Computing:**__",
-                "value": "Number: +971 50 422 9890 | E-mail: mnbrohi@bathspa.ae"
+                "name": "__**Mr. Abdul Basit - Web Development:**__",
+                "value": "Number: +971 56 871 1320 | E-mail: abdul@bathspa.ae"
               },
               {
                 "name": "__**Ms. Anmol Zubair - Computing Fundamentals**__",
