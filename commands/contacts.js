@@ -21,10 +21,6 @@ module.exports = {
                 "value": "Number: +971 56 871 1320 | E-mail: abdul@bathspa.ae"
               },
               {
-                "name": "__**Ms. Anmol Zubair - Computing Fundamentals**__",
-                "value": "Number: +971 52 939 4259 | E-mail: anmol@bathspa.ae"
-              },
-              {
                 "name": "__**Mr. Iftikhar A Khan - Digital Media & Storytelling:**__",
                 "value": "Number: +971 50 866 1786 | E-mail: info@bathspa.ae"
               },
