@@ -17,20 +17,16 @@ module.exports = {
             },
             "fields": [
               {
-                "name": "Code Labs",
-                "value": "https://spaces.zang.io/spaces/5fcc775aa58f471d36d4b0ac"
+                "name": "Experience Design/UX Design",
+                "value": "https://meet.google.com/rrd-dmcf-xxu"
               },
               {
-                "name": "Digital Storytelling",
-                "value": "https://spaces.zang.io/spaces/5fcc9f7dd02ed5df4a5eabbc"
+                "name": "Web Development/Web Programming",
+                "value": "https://meet.google.com/hoz-wsae-xwn"
               },
               {
-                "name": "Computing Fundamentals (DCC)",
-                "value": "https://spaces.zang.io/spaces/5fcc8b5f37c084c8514dbc4d\nhttps://meet.google.com/riz-sarp-hwy"
-              },
-              {
-                "name": "Fundamentals Of Computing (BSC)",
-                "value": "https://spaces.zang.io/spaces/5fd0627a67ad5052464024d3"
+                "name": "Ideation And CPS/Creative Strategies",
+                "value": "???"
               }
             ]
           };
