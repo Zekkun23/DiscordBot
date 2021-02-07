@@ -3,7 +3,7 @@ module.exports = {
   description: 'Provides assessment Details',
   execute(message, args){
 const embed = {
-  "description": "Assessment Details (Credits to nella for compiling these.) ",
+  "description": " ",
   "color": 1447749,
   "footer": {},
   "author": {
@@ -16,20 +16,16 @@ const embed = {
   },
   "fields": [
     {
-      "name": ":floppy_disk: Code Lab I",
+      "name": "Experience Design/UX Design",
       "value": "**N/A**"
     },
     {
-      "name": ":desktop: (BSc) Intro to Computing",
+      "name": "Web Development/Web Programming",
       "value": "**N/A**"
     },
     {
-      "name": ":desktop: (DCC) Fundamentals of Computing",
+      "name": "Ideation And CPS/Creative Strategies",
       "value": "**N/A**"
-    },
-    {
-      "name": ":book: Digital Storytelling",
-      "value": "**[JAN 30] - Sway Portfolio: Finished Sway Link **\n+ Word Document with essay that must include:\n• Digistory Experience (Video)\n• Twine story\n• 30-sec timelapse\n• Photoshop - selective coloration/decoloration, image blend and coloration\n• Advertisement storyboard\n• Photography works\n• Stop Motion\n• Bitsy Game\n\n:paperclip:  Details: https://docs.google.com/document/d/1ph0hcKs3oEWy9k13C3tcXtspLJMqs2UXF_AUd4codsg/edit\n:paperclip:  Sample: https://sway.office.com/DGdGGsAvgZY5uJwa?ref=Link\n"
     }
   ]
 };
