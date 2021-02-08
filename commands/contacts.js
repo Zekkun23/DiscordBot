@@ -21,11 +21,11 @@ module.exports = {
                 "value": "Number: +971 56 871 1320 | E-mail: abdul@bathspa.ae"
               },
               {
-                "name": "__**Mr. Iftikhar A Khan - Digital Media & Storytelling:**__",
+                "name": "__**Mr. Iftikhar A Khan - Experience Design/UX Design:**__",
                 "value": "Number: +971 50 866 1786 | E-mail: info@bathspa.ae"
               },
               {
-                "name": "__**Ms. Arshiya - Code Lab I:**__",
+                "name": "__**Ms. Arshiya - Ideation & CBS/Creative Strategies:**__",
                 "value": "Number: +971 52 667 2450 | E-mail: arshiya@bathspa.ae"
               }
             ]
