@@ -37,8 +37,8 @@ module.exports = {
                 "value": "This is an admin only command that is used to remind students about upcoming assessments."
               },
               {
-                "name": "Pw",
-                "value": "This is an admin only command that is used to announce attendance passwords."
+                "name": "Pass",
+                "value": "This is an admin only command that is used to announce attendance passwords.\n **Usage: ;pass (channel) (password)**"
               },
               {
                 "name": "Help",
