@@ -26,7 +26,7 @@ module.exports = {
               },
               {
                 "name": "Ideation And CPS/Creative Strategies",
-                "value": "???"
+                "value": "https://meet.google.com/mif-dtdr-rwg"
               }
             ]
           };
