@@ -86,11 +86,8 @@ const embed = {
                 "name": "Experience Design/UX Design",
                 "icon_url": "https://media.discordapp.net/attachments/748134959788851271/810434610634817546/3.png"
               }
-            }
-          ]
-        }
-      ]
-};
+            ]
+          };
 message.channel.send({ embed });
   }
 }
