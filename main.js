@@ -54,7 +54,7 @@ client.on('message', message => {
       return message.channel.send('You do not have permission to use this command.')
     return;
   } 
-    message.channel.send('<@&754608365283442738> Just a reminder to do your assessments! Details are above this message. See <#758394341030101042> for the full list.');
+    message.channel.send('<@&829042674753208369> Just a reminder to do your assessments! Details are above this message. See <#758394341030101042> for the full list.');
   }
   if (command == 'pass'){
     if (!message.content.startsWith(prefix) || message.author.bot) return;
@@ -78,7 +78,7 @@ client.on('message', message => {
      if(textChannel){
        msg = args.slice(1).join(" ");
        textChannel.send(msg)
-       textChannel.send('<@&754608365283442738> Passwords has been given!')
+       textChannel.send('<@&829042674753208369> Passwords has been given!')
      } 
 }});
 
