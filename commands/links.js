@@ -17,16 +17,16 @@ module.exports = {
             },
             "fields": [
               {
-                "name": "Experience Design/UX Design",
-                "value": "https://meet.google.com/rrd-dmcf-xxu"
+                "name": "Games Development",
+                "value": "https://meet.google.com/nkd-nczg-wuk"
               },
               {
-                "name": "Web Development/Web Programming",
-                "value": "https://meet.google.com/hoz-wsae-xwn"
+                "name": "Code Lab II (N/A)",
+                "value": ""
               },
               {
-                "name": "Ideation And CPS/Creative Strategies",
-                "value": "https://meet.google.com/mif-dtdr-rwg"
+                "name": "Smartphone Apps (N/A)",
+                "value": ""
               }
             ]
           };
