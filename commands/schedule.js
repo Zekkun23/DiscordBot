@@ -25,7 +25,7 @@ module.exports = {
               },
               {
                 "name": "__**Monday-Thurs:**__",
-                "value": "[Games Development](https://meet.google.com/nkd-nczg-wuk) [10:30 - 11:00]\n\n[Smartphone Apps](https://meet.google.com/mif-dtdr-rwg) [11:15 - 12:15]\n\n[Code Lab II]()[12:30 - 1:30]"
+                "value": "[Games Development](https://meet.google.com/nkd-nczg-wuk) [10:30 - 11:00]\n\n[Smartphone Apps]() [11:15 - 12:15]\n\n[Code Lab II]()[12:30 - 1:30]"
               }
             ]
           };
