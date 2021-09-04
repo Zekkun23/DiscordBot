@@ -16,16 +16,16 @@ module.exports = {
             },
             "fields": [
               {
+                "name": "__**Saturday**__",
+                "value": "[Code Lab II]() [9:30 - 11:30]"
+              },
+              {
                 "name": "__**Sunday**__",
-                "value": "[Web Development](https://meet.google.com/hoz-wsae-xwn) [9:30 - 11:00]\n\n[Experience Design/UX Design](https://meet.google.com/rrd-dmcf-xxu) [11:30 - 1:00]"
+                "value": "[Games Development](https://meet.google.com/nkd-nczg-wuk) [9:30 - 11:30]\n\n[Smartphone Apps]() [12:00 - 2:00]"
               },
               {
-                "name": "__**Monday**__",
-                "value": "[Ideation & CBS/Creative Strategies](https://meet.google.com/mif-dtdr-rwg) [9:30 - 11:00]\n\n[Experience Design/UX Design](https://meet.google.com/rrd-dmcf-xxu) [11:30 - 1:00]"
-              },
-              {
-                "name": "__**Wednesday:**__",
-                "value": "[Web Development](https://meet.google.com/hoz-wsae-xwn) [9:30 - 11:00]\n\n[Ideation & CBS/Creative Strategies](https://meet.google.com/mif-dtdr-rwg) [11:30 - 1:00]"
+                "name": "__**Monday-Thurs:**__",
+                "value": "[Games Development](https://meet.google.com/nkd-nczg-wuk) [10:30 - 11:00]\n\n[Smartphone Apps](https://meet.google.com/mif-dtdr-rwg) [11:15 - 12:15]\n\n[Code Lab II]()[12:30 - 1:30]"
               }
             ]
           };
