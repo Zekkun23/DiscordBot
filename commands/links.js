@@ -22,11 +22,9 @@ module.exports = {
               },
               {
                 "name": "Code Lab II (N/A)",
-                "value": ""
               },
               {
                 "name": "Smartphone Apps (N/A)",
-                "value": ""
               }
             ]
           };
