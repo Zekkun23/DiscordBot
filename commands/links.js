@@ -21,7 +21,8 @@ module.exports = {
                 "value": "https://meet.google.com/nkd-nczg-wuk"
               },
               {
-                "name": "Code Lab II (N/A)",
+                "name": "Code Lab II",
+                "value": "https://meet.google.com/wqq-jwmg-jrt"
               },
               {
                 "name": "Smartphone Apps (N/A)",
