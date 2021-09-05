@@ -21,11 +21,11 @@ module.exports = {
               },
               {
                 "name": "__**Sunday**__",
-                "value": "[Games Development](https://meet.google.com/nkd-nczg-wuk) [9:30 - 11:30]\n\n[Smartphone Apps]() [12:00 - 2:00]"
+                "value": "[Games Development (CCO5100-20)](https://meet.google.com/nkd-nczg-wuk) [9:30 - 11:30]\n\n[Smartphone Apps]() [12:00 - 2:00]"
               },
               {
                 "name": "__**Monday-Thurs:**__",
-                "value": "[Games Development](https://meet.google.com/nkd-nczg-wuk) [10:30 - 11:00]\n\n[Smartphone Apps]() [11:15 - 12:15]\n\n[Code Lab II](https://meet.google.com/wqq-jwmg-jrt)[12:30 - 1:30]"
+                "value": "[Games Development (CCO5100-20)](https://meet.google.com/nkd-nczg-wuk) [10:30 - 11:00]\n\n[Smartphone Apps]() [11:15 - 12:15]\n\n[Code Lab II](https://meet.google.com/wqq-jwmg-jrt)[12:30 - 1:30]"
               }
             ]
           };
