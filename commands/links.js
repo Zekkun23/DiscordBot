@@ -17,7 +17,7 @@ module.exports = {
             },
             "fields": [
               {
-                "name": "Games Development",
+                "name": "Games Development (CCO5100-20)",
                 "value": "https://meet.google.com/nkd-nczg-wuk"
               },
               {
