@@ -25,7 +25,8 @@ module.exports = {
                 "value": "https://meet.google.com/wqq-jwmg-jrt"
               },
               {
-                "name": "Smartphone Apps (N/A)",
+                "name": "Smartphone Apps",
+                "value": "https://meet.google.com/rwe-bmvh-ipq" 
               }
             ]
           };
