@@ -17,7 +17,7 @@ module.exports = {
             "fields": [
               {
                 "name": "__**Saturday**__",
-                "value": "[Code Lab II]() [9:30 - 11:30]"
+                "value": "[Code Lab II](https://meet.google.com/wqq-jwmg-jrt) [9:30 - 11:30]"
               },
               {
                 "name": "__**Sunday**__",
@@ -25,7 +25,7 @@ module.exports = {
               },
               {
                 "name": "__**Monday-Thurs:**__",
-                "value": "[Games Development](https://meet.google.com/nkd-nczg-wuk) [10:30 - 11:00]\n\n[Smartphone Apps]() [11:15 - 12:15]\n\n[Code Lab II]()[12:30 - 1:30]"
+                "value": "[Games Development](https://meet.google.com/nkd-nczg-wuk) [10:30 - 11:00]\n\n[Smartphone Apps]() [11:15 - 12:15]\n\n[Code Lab II](https://meet.google.com/wqq-jwmg-jrt)[12:30 - 1:30]"
               }
             ]
           };
