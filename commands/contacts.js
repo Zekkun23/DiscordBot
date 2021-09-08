@@ -17,15 +17,15 @@ module.exports = {
             },
             "fields": [
               {
-                "name": "__**Mr. Abdul Basit - Web Development:**__",
+                "name": "__**Mr. Abdul Basit - Smartphone Apps:**__",
                 "value": "Number: +971 56 871 1320 | E-mail: abdul@bathspa.ae"
               },
               {
-                "name": "__**Mr. Iftikhar A Khan - Experience Design/UX Design:**__",
-                "value": "Number: +971 50 866 1786 | E-mail: info@bathspa.ae"
+                "name": "__**Ms. Anmol - Games Development:**__",
+                "value": "Number: +971 52 939 4259 | E-mail: anmol@bathspa.ae"
               },
               {
-                "name": "__**Ms. Arshiya - Ideation & CBS/Creative Strategies:**__",
+                "name": "__**Ms. Arshiya - Code Lab II:**__",
                 "value": "Number: +971 52 667 2450 | E-mail: arshiya@bathspa.ae"
               }
             ]
