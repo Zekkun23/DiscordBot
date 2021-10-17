@@ -21,7 +21,7 @@ module.exports = {
               },
               {
                 "name": "__**Sunday**__",
-                "value": "[Games Development (CCO5100-20)](https://meet.google.com/nkd-nczg-wuk) [9:30 - 11:00]\n\n[Smartphone Apps](https://meet.google.com/rwe-bmvh-ipq) [12:00 - 1:00]"
+                "value": "[Games Development (CCO5100-20)](https://meet.google.com/nkd-nczg-wuk) [9:30 - 11:00]\n\n[Smartphone Apps](https://meet.google.com/rwe-bmvh-ipq) [11:30 - 1:00]"
               },
               {
                 "name": "__**Monday-Thurs:**__",
