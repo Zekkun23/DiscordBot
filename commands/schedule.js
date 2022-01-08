@@ -16,16 +16,8 @@ module.exports = {
             },
             "fields": [
               {
-                "name": "__**Saturday**__",
-                "value": "[Code Lab II](https://meet.google.com/wqq-jwmg-jrt) [9:30 - 11:00]"
-              },
-              {
-                "name": "__**Sunday**__",
-                "value": "[Games Development (CCO5100-20)](https://meet.google.com/nkd-nczg-wuk) [9:30 - 11:00]\n\n[Smartphone Apps](https://meet.google.com/rwe-bmvh-ipq) [11:30 - 1:00]"
-              },
-              {
-                "name": "__**Monday-Thurs:**__",
-                "value": "[Games Development (CCO5100-20)](https://meet.google.com/nkd-nczg-wuk) [9:30 - 11:00]\n\n[Smartphone Apps](https://meet.google.com/rwe-bmvh-ipq) [11:00 - 12:30]\n\n[Code Lab II](https://meet.google.com/wqq-jwmg-jrt)[1:00 - 2:30]"
+                "name": "__**Online Class:**__",
+                "value": "[Code Lab II](https://meet.google.com/wqq-jwmg-jrt)[9:00 - 10:00]\n\n[Games Development](https://meet.google.com/nkd-nczg-wuk)[10:30 - 11:30]\n\n[Smartphone Apps](https://meet.google.com/rwe-bmvh-ipq) [12:00 - 1:00]"
               }
             ]
           };
