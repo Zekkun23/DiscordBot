@@ -16,8 +16,16 @@ module.exports = {
             },
             "fields": [
               {
-                "name": "__**Online Class:**__",
-                "value": "[Code Lab II](https://meet.google.com/wqq-jwmg-jrt)[9:00 - 10:00]\n\n[Games Development](https://meet.google.com/nkd-nczg-wuk)[10:30 - 11:30]\n\n[Smartphone Apps](https://meet.google.com/rwe-bmvh-ipq) [12:00 - 1:00]"
+                "name": "__**Monday:**__",
+                "value": "[Creative Ind.](https://meet.google.com/yiq-pjvr-mqb)[9:30 - 11:00]\n\n[Responsive Web](https://meet.google.com/yry-uaqm-vfr)[11:30 - 1:00]"
+              },
+                {
+                "name": "__**Tuesday:**__",
+                "value": "[Emerging Tech (No Link)][9:30 - 11:00]\n\n[Responsive Web](https://meet.google.com/yry-uaqm-vfr)[11:30 - 1:00]"
+              },
+                {
+                "name": "__**Monday:**__",
+                "value": "[Creative Ind](https://meet.google.com/yiq-pjvr-mqb)[9:30 - 11:00]\n\n[Emerging Tech (No Link)][11:30 - 1:00]"
               }
             ]
           };
