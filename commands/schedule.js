@@ -24,7 +24,7 @@ module.exports = {
                 "value": "[Emerging Tech](https://meet.google.com/wuo-cvqs-hty)[9:30 - 11:00]\n\n[Responsive Web](https://meet.google.com/yry-uaqm-vfr)[11:30 - 1:00]"
               },
                 {
-                "name": "__**Monday:**__",
+                "name": "__**Wednesday:**__",
                 "value": "[Creative Ind](https://meet.google.com/yiq-pjvr-mqb)[9:30 - 11:00]\n\n[Emerging Tech](https://meet.google.com/wuo-cvqs-hty)[11:30 - 1:00]"
               }
             ]
