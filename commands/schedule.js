@@ -20,9 +20,13 @@ module.exports = {
                 "value": "[Emerging Tech](https://meet.google.com/wuo-cvqs-hty)[9:30 - 11:00]"
               },
                 {
-                "name": "__**Tuesday:**__",
+                "name": "__**Monday:**__",
                 "value": "[Creative Ind](https://meet.google.com/yiq-pjvr-mqb)[9:30 - 11:00]\n\n[Responsive Web](https://meet.google.com/yry-uaqm-vfr)[11:30 - 1:00]"
-              }
+              },
+                {
+                "name": "__**Wed-Thurs**__",
+                "value": "[Responsive Web](https://meet.google.com/yry-uaqm-vfr)[9:30 - 11:00]\n\n[Creative Ind](https://meet.google.com/yiq-pjvr-mqb)[11:30 - 1:00]\n\n[Emerging Tech](https://meet.google.com/wuo-cvqs-hty)[1:00 - 2:30]"
+              },
             ]
           };
           message.channel.send({ embed });
